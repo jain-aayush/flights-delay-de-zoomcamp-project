@@ -1,0 +1,795 @@
+{
+    "id": 60715,
+    "identifier": "DVN/HG7NV7",
+    "persistentUrl": "https://doi.org/10.7910/DVN/HG7NV7",
+    "protocol": "doi",
+    "authority": "10.7910",
+    "publisher": "Harvard Dataverse",
+    "publicationDate": "2008-10-07",
+    "storageIdentifier": "s3://1902.1/12012",
+    "datasetVersion": {
+      "id": 62280,
+      "datasetId": 60715,
+      "datasetPersistentId": "doi:10.7910/DVN/HG7NV7",
+      "storageIdentifier": "s3://1902.1/12012",
+      "versionNumber": 1,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "versionNote": "Initial version",
+      "lastUpdateTime": "2008-10-07T21:24:30Z",
+      "releaseTime": "2008-10-07T00:00:00Z",
+      "createTime": "2008-10-06T19:04:55Z",
+      "license": "CC0",
+      "termsOfUse": "CC0 Waiver",
+      "fileAccessRequest": false,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Data Expo 2009: Airline on time data"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "N/A"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "N/A"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Bi-Annual Data Exposition:\r \r Every other year, at the Joint Statistical Meetings, the Graphics Section and the Computing Section join in sponsoring a special Poster Session called The Data Exposition , but more commonly known as The Data Expo. All of the papers presented in this Poster Session are reports of analyses of a common data set provided for the occasion. In addition, all papers presented in the session are encouraged to report the use of graphical methods employed during the developme\nnt of their analysis and to use graphics to convey their findings.\nAirline on-time performance:\r \r Have you ever been stuck in an airport because your flight was delayed or cancelled and wondered if you could have predicted it if you'd had more data? This is your chance to find out.\r \r The data:\r The data consists of flight arrival and departure details for all commercial flights within the USA, from October 1987 to April 2008. This is a large dataset: there are nearly 120 million records in total, and takes up 1.6 gigabytes of space compressed and 12 gigab\nytes when uncompressed. \r \r The data comes originally from RITA where it is described in detail. You can download the data there, or from the bzipped csv files listed below. These files have derivable variables removed, are packaged in yearly chunks and have been more heavily compressed than the originals.\r \r Variable descriptions:\r  Name Description \r 1  Year  1987-2008 \r 2  Month  1-12 \r 3  DayofMonth  1-31 \r 4  DayOfWeek  1 (Monday) - 7 (Sunday) \r 5  DepTime  actual departure time (local, hhm\nm) \r 6  CRSDepTime  scheduled departure time (local, hhmm) \r 7  ArrTime  actual arrival time (local, hhmm) \r 8  CRSArrTime  scheduled arrival time (local, hhmm) \r 9  UniqueCarrier  unique carrier code \r 10  FlightNum  flight number \r 11  TailNum  plane tail number \r 12  ActualElapsedTime  in minutes \r 13  CRSElapsedTime  in minutes \r 14  AirTime  in minutes \r 15  ArrDelay  arrival delay, in minutes \r 16  DepDelay  departure delay, in minutes \r 17  Origin  origin IATA airport code \r 18  Dest  des\ntination IATA airport code \r 19  Distance  in miles \r 20  TaxiIn  taxi in time, in minutes \r 21  TaxiOut  taxi out time in minutes \r 22  Cancelled  was the flight cancelled? \r 23  CancellationCode  reason for cancellation (A = carrier, B = weather, C = NAS, D = security) \r 24  Diverted  1 = yes, 0 = no \r 25  CarrierDelay  in minutes \r 26  WeatherDelay  in minutes \r 27  NASDelay  in minutes \r 28  SecurityDelay  in minutes \r 29  LateAircraftDelay  in minutes"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2008-10-06"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "description": "",
+          "label": "1987.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1375005,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/IXITH2",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/IXITH2",
+            "filename": "1987.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 12652442,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17070",
+            "rootDataFileId": -1,
+            "md5": "e5cd6860f3ae620b6ccc1d5a24c9734e",
+            "checksum": {
+              "type": "MD5",
+              "value": "e5cd6860f3ae620b6ccc1d5a24c9734e"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1988.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1375004,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/TUYWU3",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/TUYWU3",
+            "filename": "1988.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 49499025,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17069",
+            "rootDataFileId": -1,
+            "md5": "0be4b20eeb0531c7e328461ce42d9a9c",
+            "checksum": {
+              "type": "MD5",
+              "value": "0be4b20eeb0531c7e328461ce42d9a9c"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1989.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1375003,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/T7EP3M",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/T7EP3M",
+            "filename": "1989.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 49202298,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17068",
+            "rootDataFileId": -1,
+            "md5": "6141c0c611b92fdf5fdad32a4061c7fc",
+            "checksum": {
+              "type": "MD5",
+              "value": "6141c0c611b92fdf5fdad32a4061c7fc"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1990.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1375002,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/QJKL3I",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/QJKL3I",
+            "filename": "1990.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 52041322,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17067",
+            "rootDataFileId": -1,
+            "md5": "cbdfb96084323b65595c47f5589e1392",
+            "checksum": {
+              "type": "MD5",
+              "value": "cbdfb96084323b65595c47f5589e1392"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1991.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1375001,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/EJ4WJO",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/EJ4WJO",
+            "filename": "1991.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 49877448,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17064",
+            "rootDataFileId": -1,
+            "md5": "854cf258d42b6663f373a49986a98cff",
+            "checksum": {
+              "type": "MD5",
+              "value": "854cf258d42b6663f373a49986a98cff"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1992.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1375000,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/PLPDQO",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/PLPDQO",
+            "filename": "1992.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 50040946,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17062",
+            "rootDataFileId": -1,
+            "md5": "2d744403ee4280d4044c494db17edc98",
+            "checksum": {
+              "type": "MD5",
+              "value": "2d744403ee4280d4044c494db17edc98"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1993.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374999,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/IOU9DX",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/IOU9DX",
+            "filename": "1993.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 50111774,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17060",
+            "rootDataFileId": -1,
+            "md5": "deb91bafad00b8f40609553349539545",
+            "checksum": {
+              "type": "MD5",
+              "value": "deb91bafad00b8f40609553349539545"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1994.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374998,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/BH5P0X",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/BH5P0X",
+            "filename": "1994.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 51123887,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17057",
+            "rootDataFileId": -1,
+            "md5": "d2ca7209c75ee572f9033d620041327c",
+            "checksum": {
+              "type": "MD5",
+              "value": "d2ca7209c75ee572f9033d620041327c"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1995.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374997,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/ZLTTDC",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/ZLTTDC",
+            "filename": "1995.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 74881752,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17055",
+            "rootDataFileId": -1,
+            "md5": "949dea36c5cfde671325ba52ff86cb2f",
+            "checksum": {
+              "type": "MD5",
+              "value": "949dea36c5cfde671325ba52ff86cb2f"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1996.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374996,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/3KDWWL",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/3KDWWL",
+            "filename": "1996.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 75887707,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17054",
+            "rootDataFileId": -1,
+            "md5": "7af30b0699a490b759fa9d39ed507174",
+            "checksum": {
+              "type": "MD5",
+              "value": "7af30b0699a490b759fa9d39ed507174"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1997.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374995,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/RUGDRW",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/RUGDRW",
+            "filename": "1997.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 76705687,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17053",
+            "rootDataFileId": -1,
+            "md5": "41bd1e5e7916ec6d6722ec9002d526ca",
+            "checksum": {
+              "type": "MD5",
+              "value": "41bd1e5e7916ec6d6722ec9002d526ca"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1998.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374994,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/H07RX8",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/H07RX8",
+            "filename": "1998.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 76683506,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17052",
+            "rootDataFileId": -1,
+            "md5": "442ce082e94021d3def5311ac75b9066",
+            "checksum": {
+              "type": "MD5",
+              "value": "442ce082e94021d3def5311ac75b9066"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "1999.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374993,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/IP6BL3",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/IP6BL3",
+            "filename": "1999.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 79449438,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:17051",
+            "rootDataFileId": -1,
+            "md5": "c3878258681bf5b05912ffee23199f9c",
+            "checksum": {
+              "type": "MD5",
+              "value": "c3878258681bf5b05912ffee23199f9c"
+            },
+            "creationDate": "2008-10-07"
+          }
+        },
+        {
+          "description": "",
+          "label": "2000.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374929,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/YGU3TD",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/YGU3TD",
+            "filename": "2000.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 82537924,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16977",
+            "rootDataFileId": -1,
+            "md5": "26624e97a6b83d7600666dc065bb2dd5",
+            "checksum": {
+              "type": "MD5",
+              "value": "26624e97a6b83d7600666dc065bb2dd5"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2001.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374928,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/CI5CEM",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/CI5CEM",
+            "filename": "2001.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 83478700,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16976",
+            "rootDataFileId": -1,
+            "md5": "e855ba7cc04f560199953833305a0f90",
+            "checksum": {
+              "type": "MD5",
+              "value": "e855ba7cc04f560199953833305a0f90"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2002.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374927,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/OWJXH3",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/OWJXH3",
+            "filename": "2002.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 75907218,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16975",
+            "rootDataFileId": -1,
+            "md5": "2fe2a7616d2e3e52235e6338289354ab",
+            "checksum": {
+              "type": "MD5",
+              "value": "2fe2a7616d2e3e52235e6338289354ab"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2003.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374926,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/KM2QOA",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/KM2QOA",
+            "filename": "2003.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 95326801,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16974",
+            "rootDataFileId": -1,
+            "md5": "547f4f09fd78d34b0de35878012d0111",
+            "checksum": {
+              "type": "MD5",
+              "value": "547f4f09fd78d34b0de35878012d0111"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2004.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374925,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/CCAZGT",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/CCAZGT",
+            "filename": "2004.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 110825331,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16973",
+            "rootDataFileId": -1,
+            "md5": "b68c00b2f3cb30d287f32251dd5fa00e",
+            "checksum": {
+              "type": "MD5",
+              "value": "b68c00b2f3cb30d287f32251dd5fa00e"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2005.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374923,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/JTFT25",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/JTFT25",
+            "filename": "2005.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 112450321,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16971",
+            "rootDataFileId": -1,
+            "md5": "b3c0b9d75ba5758bce5be9cefec9bb9a",
+            "checksum": {
+              "type": "MD5",
+              "value": "b3c0b9d75ba5758bce5be9cefec9bb9a"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2006.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374922,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/EPIFFT",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/EPIFFT",
+            "filename": "2006.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 115019195,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16970",
+            "rootDataFileId": -1,
+            "md5": "2cc4c958eb7fc56dfbdc8b474640a25c",
+            "checksum": {
+              "type": "MD5",
+              "value": "2cc4c958eb7fc56dfbdc8b474640a25c"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2007.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374918,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/2BHLWK",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/2BHLWK",
+            "filename": "2007.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 121249243,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16962",
+            "rootDataFileId": -1,
+            "md5": "850f5737c2fc2d71c94e8f45e4fee430",
+            "checksum": {
+              "type": "MD5",
+              "value": "850f5737c2fc2d71c94e8f45e4fee430"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "2008.csv.bz2",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "2. Data"
+          ],
+          "dataFile": {
+            "id": 1374917,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/EIR0RA",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/EIR0RA",
+            "filename": "2008.csv.bz2",
+            "contentType": "application/octet-stream",
+            "filesize": 39277452,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16961",
+            "rootDataFileId": -1,
+            "md5": "a73e97aa143a3e21db3bf0cdfba68775",
+            "checksum": {
+              "type": "MD5",
+              "value": "a73e97aa143a3e21db3bf0cdfba68775"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "Describes the locations of US airports, with the fields: iata: the international airport abbreviation code \r name of the airport \r city and country in which airport is located. \r lat and long: the latitude and longitude of the airport \r ",
+          "label": "airports.csv",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "1. Documentation"
+          ],
+          "dataFile": {
+            "id": 1374930,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/XTPZZY",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/XTPZZY",
+            "filename": "airports.csv",
+            "contentType": "text/plain; charset=US-ASCII",
+            "filesize": 244438,
+            "description": "Describes the locations of US airports, with the fields: iata: the international airport abbreviation code \r name of the airport \r city and country in which airport is located. \r lat and long: the latitude and longitude of the airport \r ",
+            "storageIdentifier": "s3://dvn-cloud:16978",
+            "rootDataFileId": -1,
+            "md5": "7fbeda0239bed45f04a67763ac189a04",
+            "checksum": {
+              "type": "MD5",
+              "value": "7fbeda0239bed45f04a67763ac189a04"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "Listing of carrier codes with full names",
+          "label": "carriers.csv",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "1. Documentation"
+          ],
+          "dataFile": {
+            "id": 1374931,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/3NOQ6Q",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/3NOQ6Q",
+            "filename": "carriers.csv",
+            "contentType": "text/plain; charset=US-ASCII",
+            "filesize": 43758,
+            "description": "Listing of carrier codes with full names",
+            "storageIdentifier": "s3://dvn-cloud:16979",
+            "rootDataFileId": -1,
+            "md5": "ec92b5ec37c968e7e5d02096020ef66b",
+            "checksum": {
+              "type": "MD5",
+              "value": "ec92b5ec37c968e7e5d02096020ef66b"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "Information about some individual planes",
+          "label": "plane-data.csv",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "1. Documentation"
+          ],
+          "dataFile": {
+            "id": 1374932,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/XXSL8A",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/XXSL8A",
+            "filename": "plane-data.csv",
+            "contentType": "text/plain; charset=US-ASCII",
+            "filesize": 428796,
+            "description": "Information about some individual planes",
+            "storageIdentifier": "s3://dvn-cloud:16980",
+            "rootDataFileId": -1,
+            "md5": "2ca3e21c80a8bb2f91edbaa03a964058",
+            "checksum": {
+              "type": "MD5",
+              "value": "2ca3e21c80a8bb2f91edbaa03a964058"
+            },
+            "creationDate": "2008-10-06"
+          }
+        },
+        {
+          "description": "",
+          "label": "variable-descriptions.csv",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 62280,
+          "categories": [
+            "1. Documentation"
+          ],
+          "dataFile": {
+            "id": 1374933,
+            "persistentId": "doi:10.7910/DVN/HG7NV7/YZWKHN",
+            "pidURL": "https://doi.org/10.7910/DVN/HG7NV7/YZWKHN",
+            "filename": "variable-descriptions.csv",
+            "contentType": "text/plain; charset=US-ASCII",
+            "filesize": 1091,
+            "description": "",
+            "storageIdentifier": "s3://dvn-cloud:16981",
+            "rootDataFileId": -1,
+            "md5": "dca8043e70f5fee9d8f07d871b0a1ad6",
+            "checksum": {
+              "type": "MD5",
+              "value": "dca8043e70f5fee9d8f07d871b0a1ad6"
+            },
+            "creationDate": "2008-10-06"
+          }
+        }
+      ],
+      "citation": "2008, \"Data Expo 2009: Airline on time data\", https://doi.org/10.7910/DVN/HG7NV7, Harvard Dataverse, V1"
+    }
+  }
