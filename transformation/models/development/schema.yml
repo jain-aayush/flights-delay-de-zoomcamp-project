@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: development
+      database: flights-de-zoomcamp-course
+      schema: airline_data_temp1
+
+      tables:
+        - name: flights
+        - name: carriers
+        - name: airports
+        - name: plane_data
