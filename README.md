@@ -3,6 +3,7 @@ Table of Contents
   - [Flights Delay Analysis](#flights-delay-analysis)
   - [Architecture Diagram](#architecture-diagram)
   - [Technologies Used](#technologies-used)
+  - [About the Data](#about-the-data)
   - [Dashboard](#dashboard)
 
 # About the Project
@@ -28,6 +29,19 @@ The Aim of this project is to create an Extract, Load, Transform (ELT) Pipeline 
 * ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 * ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
 
+## About the Data
+
+> The Airline data set consists of flight arrival and departure details for all commercial flights from 1987 to 2008. The approximately 120MM records (CSV format), occupy 120GB space. The data set was used for the Visualization Poster Competition, JSM 2009. 
+
 ## Dashboard
 
+The analysis was done with inspiration coming from the Winning Entry for the Visualization Poster Competition, JSM 2009. 
+
 Link to the Dashboard - [Flight Delay Analysis](https://datastudio.google.com/reporting/b6963f3b-5bca-4e56-bc90-1b5988097372)
+
+![Page1](static/spatial_analysis_dashboard.png)
+
+
+![Page2](static/temporal_analysis_dashboard.png)
+
+**Source** : [Congestion in the Sky: Vizualising Domestic Airline Traffic with SAS, Rick Wicklin and Robert Allison, SAS Institute](http://stat-computing.org/dataexpo/2009/posters/wicklin-allison.pdf)
