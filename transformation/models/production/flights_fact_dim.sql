@@ -4,9 +4,9 @@
         partition_by={
             'field' : 'Date',
             'data_type' : 'date',
-            'granularity' : 'year'
+            'granularity' : 'month'
         }, 
-        cluster_by=['origin_airport_name', 'dest_airport_name']
+        cluster_by=['origin_airport_city', 'Origin']
     )
 }}
 
