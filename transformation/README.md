@@ -1,5 +1,7 @@
 # DBT - Transformation
 
+![transformation](../static/fact_table_lineage.png)
+
 Steps : 
 
 1. Create a DBT project and Add your GCP service-account-keys for authentication
