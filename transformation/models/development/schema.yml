@@ -10,3 +10,67 @@ sources:
         - name: carriers
         - name: airports
         - name: plane_data
+
+models:
+    - name: dev_flights
+      description: >
+        Flights data with details about cancellations and delays from the time period of 1987 to 2008. 
+      columns:
+          - name: Year 
+            description: The year from which the data was recorded.
+          - name: Month 
+            description: The month from which the data was recorded.
+          - name: DayofMonth 
+            description: The day of the month from which the data was recorded.
+          - name: DayOfWeek 
+            description: The day of the week from which the data was recorded.
+          - name: DepTime 
+            description: actual departure time (local, hhmm)
+          - name: CRSDepTime
+            description: scheduled departure time (local, hhmm)
+          - name: ArrTime
+            description: actual arrival time (local, hhmm)
+          - name: CRSArrTime
+            description: scheduled arrival time (local, hhmm)
+          - name: UniqueCarrier
+            description: unique carrier code
+          - name: FlightNum
+            description: flight number
+          - name: TailNum
+            description: plane tail number
+          - name: ActualElapsedTime
+            description: in minutes
+          - name: CRSElapsedTime
+            description: in minutes
+          - name: AirTime
+            description: in minutes
+          - name: ArrDelay
+            description: arrival delay, in minutes
+          - name: DepDelay
+            description: departure delay, in minutes
+          - name: Origin
+            description: origin IATA airport code
+          - name: Dest
+            description: destination IATA airport code
+          - name: Distance
+            description: in miles
+          - name: TaxiIn
+            description: taxi in time, in minutes
+          - name: TaxiOut
+            description: taxi out time in minutes
+          - name: Cancelled
+            description: was the flight cancelled?
+          - name: CancellationCode
+            description: reason for cancellation (A = carrier, B = weather, C = NAS, D = security)
+          - name: Diverted
+            description: 1 = yes, 0 = no
+          - name: CarrierDelay
+            description: in minutes
+          - name: WeatherDelay
+            description: in minutes
+          - name: SecurityDelay
+            description: in minutes
+          - name: NASDelay
+            description: in minutes
+          - name: LateAircraftDelay
+            description: in minutes
